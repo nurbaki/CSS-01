@@ -1,0 +1,39 @@
+.container, container1{
+    margin: 1rem;
+}
+.msg{
+    margin: 1rem;
+    display: inline-block;
+
+}
+.msg1{
+    border: 3px solid red;
+
+}
+.msg2{
+    border-right: 4px solid blue;
+}
+.msg3{
+    border-bottom: 2px dashed yellow;
+}
+.msg4{
+    border-top: 4px solid;
+    background-color: red;
+    padding: 2rem;
+}
+.msg5{
+    border:  4px dotted;
+    border-radius: 4px 0;
+}
+.msg6{
+    border: 3px solid goldenrod;
+    border-radius: 50%;
+}
+.msg7{
+    border: 3px solid purple;
+    border-radius: 50%;
+    /* padding: 2rem; */
+    width: 5rem;
+    height: 5rem;
+    /* esit buyukluk verince yude 50 radius verince tam yuvarlak olusuyor */
+}

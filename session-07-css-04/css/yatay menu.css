@@ -1,0 +1,46 @@
+.yataymenu ul{
+    list-style-type: none;
+}
+
+.yataymenu ul li{
+    background-color: bisque;
+    text-align: center;
+    display: inline-block;
+    width: 8rem;
+    height: 4rem;
+    margin: 0,5rem;
+}
+a{
+    text-decoration: none;
+    background-color: red;
+    padding: 1rem;
+    display:inline-block;
+    width: 6rem;
+}
+a:hover{
+    background-color: coral;
+    color: white;
+}
+/* active kullanmak istiyorsak ya hover dan sonra yazacağız,
+ ya da  spesific selector yapıcaz (babasının adını yazmak) */
+a:active{
+    color: red;
+
+}
+
+/* ACILIR MENU */
+nav.acılırmenu{
+    width: 100px;  
+}
+
+.acılırmenu ul{
+    display: none;
+}
+.acılırmenu:hover ul{
+    display: block;
+}
+/* hover kullanırken h veya p gibi tag ları degıl nav gibi div gibi
+olanlara gore hover ve display yaptırıyoruz. yoksa calısmıyor. */
+
+
+

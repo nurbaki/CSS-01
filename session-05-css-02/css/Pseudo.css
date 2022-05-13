@@ -1,0 +1,99 @@
+
+table,td,th{
+ border-collapse: collapse;
+}
+
+.liste tr:nth-child(odd){
+    background-color: pink;
+    color: yellow;
+}
+.liste td:first-child{
+    font-weight: 900;
+    /* color: aqua; */
+}
+.liste td:last-child{
+    font-style: italic;
+}
+.liste tr:nth-child(3){
+background-color: red;
+}
+
+.liste tr:nth-child(3)::after,
+.liste tr:nth-child(3)::before{
+    content: "💧";
+}
+.liste tr::before,
+.liste tr::after{
+    font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "👍";
+  /* color: rgb(27, 30, 190); */
+  font-size: 30px;
+}
+td:hover{
+    background-color: gray;
+}
+
+a:visited{
+color: rebeccapurple;
+}
+a:active{
+    color: cyan;
+}
+a:hover{
+    font-size: 30px;
+    background-color: yellow;
+}
+
+/* viewport ölçüleri parenttan bağımsız çalışır(vw=width, vh=height). % ölçü birimi element in kapsaması gereken ölçüye göre çalışır mesela bir div ne kadar yer kaplayacaksa 50% ile onun yarısını alırsınız, yada parent a bir height width verdiniz, ona göre şekillenir. px ve
+ % =margin lerden arta kalan yeri anlar, viewport bütün ekranı (50vw=ekranın yüzde 50 si) */
+
+/* 
+
+table,td,th{
+    border-collapse: collapse;
+   
+   }
+   
+   .liste tr:nth-child(odd){
+    background-color:pink;
+    color:yellow;
+   }
+   
+   .liste td:first-child{
+   font-weight:900;
+   
+   }
+   .liste td:last-child{
+   font-style: italic;
+   
+   }
+   .liste tr:nth-child(3){
+    background-color:red;
+    color:aquamarine;
+   }
+   
+   .liste tr:nth-child(3)::after,
+   .liste tr:nth-child(3)::before{
+   content: "🎗️"
+   }
+   
+   
+   .liste tr::before,
+   .liste tr::after{
+   font-family: "Font Awesome 5 Free";
+     font-weight: 900;
+    content: "💛"
+    /* content:"\f004"; */
+   /* }
+   
+   td:hover{
+    background-color:lightgreen;
+   } */
+   
+   /* tr:hover{
+    background-color:gray;
+   } */
+   /* row lara hover olunca stil vermek istiyorsam, kimseye spesific stil vermemiş olmam gerekir */
+   
+   

@@ -1,0 +1,28 @@
+.btn{
+    background-color: aqua;
+    margin: 1rem;
+    padding: 1rem 2rem;
+}
+
+.btn :last-child{
+    margin-bottom: 3rem;
+}
+span{
+    display: inline-block;
+    background-color: brown;
+    margin: 1rem;
+    padding: 1rem;
+}
+.newbtn{
+    background-color: red;
+    width: 20vw;
+    padding: 2rem 1rem;
+    /* margin: 3rem auto; */
+}
+
+/* viewport ölçüleri parenttan bağımsız çalışır(vw=width, vh=height). 
+% ölçü birimi element in kapsaması gereken ölçüye göre çalışır mesela bir 
+div ne kadar yer kaplayacaksa 50% ile onun yarısını alırsınız, yada parent a bir
+ height width verdiniz, ona göre şekillenir. px ve % =margin lerden
+ arta kalan yeri anlar, viewport bütün ekranı (50vw=ekranın yüzde 50 si) */
+/*  

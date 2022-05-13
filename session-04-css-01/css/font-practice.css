@@ -1,0 +1,17 @@
+*{
+font-family: 'Roboto', sans-serif;
+}
+.menü{
+    background-color: lightgray;
+    width: 96px;
+    text-align: center;
+    font-size: 18px;
+}
+.aktif{
+    background-color: black;
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+    font-style: italic;
+    /* font-style: oblique; Her bilgisayarın tanıdıgı italik yapma aracı*/
+
+}
