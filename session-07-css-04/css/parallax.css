@@ -1,0 +1,26 @@
+.bg{
+    height: 70vh;
+    background-size: cover;
+    background-position:top center ;
+    background-attachment: fixed;
+
+}
+
+/* background-size: cover; */
+  /* ekran büyükken ekranı tamamen sar, kapla,gerekirse kırp */
+
+  /* background-attachment:fixed; */
+  /* parallax effect ini veren komut */
+  /* background-position:top center; */
+  /* tepesini göster ortala */
+  /* center center:resim tam ortalansın ekran büyüdükçe resim büyümesin alt üst ortalı gözüksün, top = tepesi çok gözüksün, bottom= alt tarafı çok gözüksün */
+
+.image1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg");
+}
+.image2{
+    background-image: url("../img/Mona_Lisa.jpg") ;
+}
+.image3{
+    background-image: url("https://cdn.dekopasaj.com/products/3/359e53ee-e29f-4e19-b562-772148560690.jpg");
+}
